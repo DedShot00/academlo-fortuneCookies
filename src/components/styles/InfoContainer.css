@@ -1,0 +1,56 @@
+.containerInfo{
+  max-width: 500px;
+}
+
+
+.containerInfo__title{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: 5px 5px 1px orange;
+  text-transform: uppercase;
+
+  width: 100%;
+
+  position: absolute;
+  top: 20px;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+.containerInfo__phrase{
+  background-image: url('/images/Rectangle.png');
+  background-size: 100% 100%;
+  
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.containerInfo__author{
+  position: absolute;
+  bottom: 20px;
+  left: 50vw;
+  transform: translateX(-50%);
+
+  padding: 5px;
+
+  background-color: rgba(80, 80, 80, 0.363);
+}
+
+.button{
+  background-color: orange;
+  padding: 10px 20px;
+  font-size: .9rem;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: rgb(240, 156, 0);
+}
